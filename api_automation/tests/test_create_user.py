@@ -7,7 +7,7 @@ import logging
 import allure
 import yaml
 def get_test_data():
-    with open("test_data.yaml", "r") as file:
+    with open("testdata/test_data.yaml", "r") as file:
         data = yaml.safe_load(file)
         print(data)
     return [(item["name"], item["email"], item["gender"], item["status"],
