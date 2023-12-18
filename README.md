@@ -19,7 +19,10 @@ demo
 - run_all_cases.py
 - reports
   - html
+- screenshots
 
+![Test Report Screen](https://github.com/matthewxuda/demo/blob/main/reports/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202023-12-18%2023.29.23.png)
+![Test Report Screen](https://github.com/matthewxuda/demo/blob/main/reports/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202023-12-18%2023.29.52.png)
 
 ## Features 
  
