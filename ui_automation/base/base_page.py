@@ -41,9 +41,6 @@ class BasePage:
             pass
 
     def is_element_exist(self, element, wait_seconds,frequency, doc=''):
-        """
-        判断元素是否存在
-        """
         by = element[0]
         value = element[1]
         try:
@@ -73,9 +70,6 @@ class BasePage:
 
 
     def find_element_click(self, element: Tuple[str, Union[str, Dict]],doc=''):
-        """
-        寻找元素
-        """
         by = element[0]
         value = element[1]
         try:
@@ -103,9 +97,6 @@ class BasePage:
             raise e
 
     def find_elements(self, element: Tuple[str, Union[str, Dict]], doc=''):
-        """
-        寻找一组元素
-        """
         by = element[0]
         value = element[1]
         try:
@@ -133,9 +124,7 @@ class BasePage:
             logger.error(">>>>>>>> failed to find elements: %s is %s. Error: %s" % (by, value, e))
 
     def find_all_child_element_by_xpath(self, element: Tuple[str, Union[str, Dict]], doc=''):
-        """
-        寻找元素的所有子元素
-        """
+
         by = element[0]
         value = element[1]
         try:
