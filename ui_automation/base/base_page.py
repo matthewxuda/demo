@@ -132,7 +132,7 @@ class BasePage:
             screen_name = self.get_screenshot(doc)
             logger.error(">>>>>>>> failed to find elements: %s is %s. Error: %s" % (by, value, e))
 
-    def find_all_child_element_by_xpath(self, element: Tuple[str, Union[str, Dict]]):
+    def find_all_child_element_by_xpath(self, element: Tuple[str, Union[str, Dict]], doc=''):
         """
         寻找元素的所有子元素
         """
